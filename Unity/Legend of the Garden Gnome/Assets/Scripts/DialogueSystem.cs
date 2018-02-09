@@ -7,7 +7,9 @@ public class DialogueSystem : MonoBehaviour {
     public static DialogueSystem Instance { get; set; }
 
     public GameObject dialoguePanel;
+    [HideInInspector]
     public string npcName;
+    [HideInInspector]
     public List<string> dialogueLines;
 
     Button continueButton;
@@ -41,7 +43,6 @@ public class DialogueSystem : MonoBehaviour {
         dialogueLines.AddRange(_lines);
         this.npcName = _npcName;
 
-        Debug.Log(dialogueLines.Count);
         CreateDialogue();
     }
 

@@ -92,10 +92,18 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\ActionItems\ActionItem.cs" />
     <Compile Include="Assets\Scripts\ActionItems\SignPost.cs" />
+    <Compile Include="Assets\Scripts\BaseStat.cs" />
+    <Compile Include="Assets\Scripts\CharacterStats.cs" />
     <Compile Include="Assets\Scripts\DialogueSystem.cs" />
+    <Compile Include="Assets\Scripts\IWeapon.cs" />
     <Compile Include="Assets\Scripts\Interactable.cs" />
+    <Compile Include="Assets\Scripts\InventroyController.cs" />
+    <Compile Include="Assets\Scripts\Item.cs" />
     <Compile Include="Assets\Scripts\NPCs\NPC.cs" />
     <Compile Include="Assets\Scripts\PickupItem.cs" />
+    <Compile Include="Assets\Scripts\PlayerWeaponController.cs" />
+    <Compile Include="Assets\Scripts\StatBonus.cs" />
+    <Compile Include="Assets\Scripts\Sword.cs" />
     <Compile Include="Assets\Scripts\WorldInteraction.cs" />
   </ItemGroup>
   <ItemGroup>
