@@ -90,6 +90,12 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\ActionItems\ActionItem.cs" />
+    <Compile Include="Assets\Scripts\ActionItems\SignPost.cs" />
+    <Compile Include="Assets\Scripts\DialogueSystem.cs" />
+    <Compile Include="Assets\Scripts\Interactable.cs" />
+    <Compile Include="Assets\Scripts\NPCs\NPC.cs" />
+    <Compile Include="Assets\Scripts\PickupItem.cs" />
     <Compile Include="Assets\Scripts\WorldInteraction.cs" />
   </ItemGroup>
   <ItemGroup>
