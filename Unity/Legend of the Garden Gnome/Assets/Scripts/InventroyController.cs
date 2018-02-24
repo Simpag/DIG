@@ -11,7 +11,7 @@ public class InventroyController : MonoBehaviour {
         playerWeaponController = GetComponent<PlayerWeaponController>();
         List<BaseStat> swordSats = new List<BaseStat>();
         swordSats.Add(new BaseStat(6, "Damage", "Your damage amount"));
-        sword = new Item(swordSats, "Sword");
+        sword = new Item(swordSats, "Staff");
     }
 
     private void Update()
